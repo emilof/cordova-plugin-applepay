@@ -161,9 +161,14 @@ ApplePay.makePaymentRequest(
                   label: 'Next Day Delivery',
                   amount: 3.99
               },
-                      {
+              {
                   label: 'My Fashion Company',
                   amount: 53.98
+              },
+              {
+                  label: 'Item with pending amount',
+                  amount: 0.00,
+                  type: 'pending'
               }
           ],
           shippingMethods: [
